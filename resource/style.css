@@ -1,0 +1,202 @@
+#page1 .container
+{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1 
+{
+    background-image: url(../Gambar/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+}
+.cta:hover
+{
+  transition: transform 0.5s;
+  transform: scale(1.2) ;
+}
+#page1 .cta
+{
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25rem;
+    font: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 15px;
+    margin-bottom: -150px;
+    margin-right: 15px;
+    transition: .3s ease background color;
+}
+#page1::after
+{
+    content:'' ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#page1 h1
+{
+    display: block;
+    width: fit-content;
+    font-size: 3rem;
+    position: relative;
+    color: white;
+}
+#page1 p
+{
+    display: block;
+    font-size: 1rem;
+    color: white;
+    justify-content: center;
+    margin-top: -10px;
+}
+#page h5
+{
+    position: absolute;
+    justify-content: end;
+}
+#page2
+{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(218, 227, 233);
+    z-index: -1;
+}
+#page3
+{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(218, 227, 233);
+    z-index: -1;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  }
+  .jumbotron h2
+  {
+    color: white;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    color: inherit;
+  }
+  .jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+  }
+  .jumbotron > hr {
+    border-top-color: #d5d5d5;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+  }
+  .jumbotron .container {
+    max-width: 100%;
+  }
+  @media screen and (min-width: 768px) {
+    .jumbotron {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .container .jumbotron,
+    .container-fluid .jumbotron {
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+    .jumbotron h1,
+    .jumbotron .h1 {
+      font-size: 63px;
+    }
+  }
+#page4
+{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(218, 227, 233);
+    z-index: -1;
+}
+.container .box
+{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.container .box .imgbox
+{
+  position: relative;
+}
+.container .box .imgbox img
+{
+  max-width: 100%;
+  transition: transform 2s;
+}
+.container .box:hover .imgbox img
+{
+  transform: scale(1.2);
+}
+.container .box .details
+{
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background: rgba(255, 255, 255, 0.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.container .box:hover .details
+{
+  transform: scaleY(1);
+}
+.container .box .details .content
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: rgb(65, 65, 65);
+}
+.container .box .details .content h2
+{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: rgb(70, 70, 70);
+}
+.container .box .details .content p
+{
+  margin: 5px 0 0;
+  padding: 0;
+}
+#page4 .card
+{
+  margin-bottom: 30px;
+}
